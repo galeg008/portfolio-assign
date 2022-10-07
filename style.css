@@ -73,8 +73,9 @@ margin: 10px;
 }
 
 .work-item:first-child {
-  min-height: 400px;
+  min-height: 500px;
   flex-basis: 100%;
+  
 }
 /* .cat {
   height: 200px;
@@ -132,10 +133,10 @@ main {
 
 
 .card {
-  min-height: 10px;
-  flex-basis: 50% ;
-  max-width: 70%;
-  max-height:70%;
+  min-height: 100px;
+  flex-basis: 60%;
+  max-width: 90%;
+  max-height:90%;
   border: 5px dashed black;
  
 }
