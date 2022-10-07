@@ -58,7 +58,7 @@ nav a {
 .work-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .work-item {
@@ -70,6 +70,7 @@ display: flex;
 align-items: flex-end;
 padding: 10px;
 margin: 10px;
+flex-grow: 1;
 }
 
 .work-item:first-child {
@@ -137,7 +138,7 @@ main {
   flex-basis: 60%;
   max-width: 90%;
   max-height:90%;
-  border: 5px dashed black;
+  
  
 }
 .cat1{
@@ -161,6 +162,38 @@ main {
   justify-content: space-evenly;
 
 }
+
+#portrait, #family {
+  background-image: url("./images/IMG_9346.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#travel {
+background-image: url("./images/IMG_0773.JPG");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+#engagement {
+background-image: url("./images/DSC_0495.JPG");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+#Architecture { 
+background-image: url("./images/IMG_7794.JPG");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
 
 @media screen and (max-width: 968px) {
   .work-container {
